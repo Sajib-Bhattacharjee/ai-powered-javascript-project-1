@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/theme.css" />
+    <link rel="stylesheet" href="styles/animations.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Task Manager</h1>
+        <div class="theme-controls">
+          <select id="theme-select">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="blue">Blue</option>
+            <option value="high-contrast">High Contrast</option>
+            <option value="custom">Custom</option>
+          </select>
+          <input type="color" id="custom-color" hidden />
+        </div>
+      </div>
+      <form id="task-form">
+        <input
+          type="text"
+          id="task-input"
+          placeholder="Add a new task"
+          required
+        />
+        <button type="submit">Add Task</button>
+      </form>
+      <ul id="task-list"></ul>
+    </div>
+    <script src="scripts/utils.js"></script>
+    <script src="scripts/storage.js"></script>
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/animations.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>

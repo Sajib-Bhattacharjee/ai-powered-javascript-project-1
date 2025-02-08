@@ -2,7 +2,20 @@
 
 ##  ` 🌟 **JavaScript Task Manager Project Documentation** 🌟 `
 
-</div>
+</div> 
+
+<div align="center">
+
+# `Task Manager`
+
+## 🌟 **Live Preview** 🌟
+
+💕 [**Task Manager**](https://jstaskmanager2025.netlify.app/) 💕
+
+🎉 Click to explore the fun and laughter! 😄
+
+</div> 
+
 
 ## 🌈 Overview
 
